@@ -50,7 +50,7 @@ export default function Home() {
       typeClass: "bg-portfolio-accent-light text-portfolio-accent",
       desc: "This project focuses on building a predictive machine learning model to identify customers who are highly likely to discontinue using a company’s service (churn). By accurately predicting churn, businesses can proactively implement targeted retention strategies, reduce customer acquisition costs, and maximize customer lifetime value",
       tags: ["Jupyter Notebook", "Scikit-Learn", "Pandas"],
-      image: "/MlModel.webp",
+      image: "/MLModel.webp",
       githubUrl: "https://github.com/FatimaMansoorAhmed/Customer_Churn_Prediction_System.git"
     },
     {
