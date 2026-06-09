@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-portfolio-bg: #f9f7f4;
+  --color-portfolio-surface: #ffffff;
+  --color-portfolio-text: #0f1115;
+  --color-portfolio-muted: #4a5262; 
+  --color-portfolio-accent: #2d5a8e;
+  --color-portfolio-accent-light: #e8f0f9;
+  --color-portfolio-accent2: #7c5cbf;
+  --color-portfolio-accent2-light: #f0ecfa;
+  --color-portfolio-border: #dcd7cc; 
+  --color-portfolio-tag-bg: #f0ecfa;
+  --color-portfolio-tag-text: #5a3fa3;
+  --color-portfolio-type-ml-bg: #fef3e0;
+  --color-portfolio-type-ml-text: #a05c0a;
+  --color-portfolio-edu-bg: #e6f9f0;
+  --color-portfolio-edu-text: #0a7a4a;
+
+  --font-serif: var(--font-dm-serif), Georgia, serif;
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+
+  --radius-portfolio-lg: 12px;
+  --radius-portfolio-sm: 8px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.animate-pulse-dot {
+  animation: pulse 2s infinite;
+}
+
+/* --- TAILWIND V4 NATIVE ANIMATION PLACEMENT --- */
+@keyframes name-fade-loop {
+  0%, 100% {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(6px);
+  }
+  15%, 85% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0px);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-name-loop {
+  animation: name-fade-loop 4s infinite ease-in-out;
 }
