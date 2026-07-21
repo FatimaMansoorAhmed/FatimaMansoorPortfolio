@@ -362,7 +362,7 @@ export default function Home() {
               <div className="pb-3 border-b border-portfolio-border last:border-none last:pb-0">
                 <h4 className="text-[13px] font-semibold text-portfolio-text mb-0.5">BE Software Engineering</h4>
                 <div className="text-[13px] text-portfolio-accent font-semibold mb-0.5">Muhammad Ali Jinnah University</div>
-                <div className="text-xs text-portfolio-muted font-medium">2022 — 2026 (Final Semester)</div>
+                <div className="text-xs text-portfolio-muted font-medium">2022 — 2026</div>
                 <span className="inline-block mt-1 text-[11px] bg-portfolio-edu-bg text-portfolio-edu-text px-2 py-0.5 rounded-full font-semibold">
                   In Progress ✦
                 </span>
