@@ -18,10 +18,10 @@ export default function Home() {
   title: "StudySphere",
   type: "Full-Stack Web App",
   typeClass: "bg-portfolio-accent1-light text-portfolio-accent1", // Apne theme palette ke mutabiq adjust kar sakti hain
-  desc: "A comprehensive study and notes management platform built for modern learners. Features secure user authentication via JWT, seamless notes creation and organization, and a highly responsive multi-service architecture deployed with seamless frontend-backend routing.",
+  desc: "A comprehensive study and notes management platform built for modern learners. Features secure user authentication via JWT, seamless notes creation and organization, and responsive deployed with seamless frontend-backend routing.",
   tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Vite", "Tailwind CSS", "Axios"],
   image: "/Studysphere.webp", // Apni public/ image path add kar lein
-  demoUrl: "https://study-sphere-3t5x5p76h-fatimamansoorahmeds-projects.vercel.app/",
+  demoUrl: "https://study-sphere-ruddy.vercel.app/",
   githubUrl: "https://github.com/FatimaMansoorAhmed/StudySphere.git"
 },
     {
