@@ -51,7 +51,7 @@ export default function Home() {
       desc: "Developed a fullstack web application to manage Expenses and daily spendigs. Utilized MongoDB for database management and Rect for Frontend",
       tags: ["React", "Express", "MongoDB"],
       image: "/ExpenseTrack.webp",
-      demoUrl: "https://expense-tracker-4rss-11uhi9u4p-fatimamansoorahmeds-projects.vercel.app/",
+      demoUrl: "https://expense-tracker-4rss.vercel.app/",
       githubUrl: "https://github.com/FatimaMansoorAhmed/ExpenseTracker.git"
     },
     {
