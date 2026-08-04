@@ -9,7 +9,7 @@ export default function Home() {
       type: "AI/ML & Full-Stack",
       typeClass: "bg-portfolio-accent2-light text-portfolio-accent2",
       desc: "An advanced full stack, AI powered system that analyzes resumes against target job descriptions. Instead of relying on rigid, outdated keyword-matching algorithms, Jobfitcheck leverages a high-speed Agentic AI Architecture to perform deep semantic analysis, identify concrete skill gaps, and provide actionable resume optimization feedback.",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS", "FastAPI", "LangGraph", "Groq Cloud API"],
+      tags: ["Next.js","Tailwind CSS", "FastAPI", "LangGraph", "Groq Cloud API"],
       image: "/jobfit.webp", 
       demoUrl: "https://jobfitcheck.vercel.app/",
       githubUrl: "https://github.com/FatimaMansoorAhmed/Jobfitchecker.git"
